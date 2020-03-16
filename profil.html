@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/mdb.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body id="profil">
+    <nav class="navbar navbar-expand-lg navbar-dark white" id="nav">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo-luvmood.png" height="50" alt="mdb logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Acceuil
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pourquoi Luvmood ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactez-nous</a>
+                </li>
+            </ul>
+            <span class="navbar-text white-text">
+                <button class="btn btn-primary">connexion</button>
+            </span>
+        </div>
+    </nav>
+    <section>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="left">
+                    <form method="post">
+                        <input type="search" class="form-control" id="search" placeholder="recherche ...">
+                    </form>
+                    <ul>
+                        <li><a href="#" class="imgpro"><img src="images/Asset 2.svg" height="40" > &nbsp;&nbsp;&nbsp;LuvProfil </a></li>
+                        <li><a href="#" class="imgpro"><img src="images/talk.svg" height="40" > &nbsp;&nbsp;&nbsp;LuvChat </a></li>
+                    </ul>
+                    <br>
+                    <a class="deconnexion" href="#"><img src="images/logout.svg" height="60"> Déconnexion</a>
+                    <footer>
+                        <img src="images/logo-luvmood.png" height="50">
+                    </footer>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8 offset-md-2 col-md-8">
+                        <div class="right">
+                            <nav>
+                                <ul>
+                                    <li class="active">
+                                        <a class="nav-link" href="#"><i class="fas fa-user"></i>  Mon profil</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#"><i class="fas fa-bell"></i>  Notifications</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#"><i class="fas fa-users"></i>  Mes relations</a>
+                                    </li>
+                                </ul> 
+                            </nav>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6" >
+                                    <div class="imageprofil" style="background-image: url('images/woman-holding-white-ceramic-mug-at-desk-2422287.jpg'); background-size:cover">
+                                        <input type="file" name="imageprofil" style="display:none">
+                                        <button class="changeImageProfil">changer la photo</button>
+                                    </div>
+                                    <h2>User 34</h2>
+                                    <br><br><br><br><br>
+                                    <h3>450 Relations</h3>
+                                    <img src="images/Asset 2.svg" height="50" class="userimg">
+                                </div>
+                                <div class="col-lg-6 col-md-6"  id="deuxieme">
+                                     <div>
+                                        <button class="btn">Modifier profil</button>
+                                     </div>
+                                     <div id=infototal>
+
+                                     
+                                     <div class="row">
+                                      <div  style="font-size: 25px;" >
+                                           <p> E-mail</p>
+                                    </div>
+                                    <div> 
+                                        <p class="details"> USer43@gmail.com</p> 
+                                    </div>
+                                     </div>
+                                     <div class="row">
+                                        <div  style="font-size: 25px;" >
+                                            <p> Nom</p>
+                                        </div>
+                                        <div> 
+                                            <p class="details"> USer43@gmail.com</p> 
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                            <div  style="font-size: 25px;" >
+                                                <p> Domicile</p>
+                                            </div>
+                                            <div > 
+                                                <p class="details"> USer43@gmail.com</p> 
+                                            </div>
+                                            </div>
+                                     
+                                        
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/mdb.min.js"></script>
+</body>
+</html>
